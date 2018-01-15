@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MainBottomButton">
+        <attr name="imgResource" format="reference"/>
+        <attr name="textResource" format="string" />
+        <attr name="textColor" format="integer|color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.cruse.lee.poetry.views.MainBottomButton
+            android:id="@+id/mainBottomPoetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:imgResource="@drawable/selector_main_poetry"
+            app:textColor="@color/selector_main_bottom"
+            app:textResource="@string/main_poetry"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.cruse.lee.poetry.views.MainBottomButton
+            android:id="@+id/mainBottomRecommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:imgResource="@drawable/selector_main_recommend"
+            app:textColor="@color/selector_main_bottom"
+            app:textResource="@string/main_recommend"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.cruse.lee.poetry.views.MainBottomButton
+            android:id="@+id/mainBottomCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:textColor="@color/selector_main_bottom"
+            app:imgResource="@drawable/selector_main_center"
+            app:textResource="@string/main_center"/>
+
+    </FrameLayout>
+
+</LinearLayout>
